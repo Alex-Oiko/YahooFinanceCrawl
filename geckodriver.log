@@ -1381,3 +1381,75 @@ sing stream method for AStream*
 JavaScript error: chrome://marionette/content/listener.js, line 1001: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
 JavaScript error: chrome://marionette/content/listener.js, line 1001: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
 JavaScript error: chrome://marionette/content/listener.js, line 1001: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+1504173460335	geckodriver	INFO	geckodriver 0.18.0
+1504173460348	geckodriver	INFO	Listening on 127.0.0.1:49999
+1504173461463	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1504173461821	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1504173462164	Marionette	INFO	Enabled via --marionette
+2017-08-31 12:57:43.552 plugin-container[2038:49149] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa437, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-31 12:57:43.554 plugin-container[2038:49149] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1504173463759	Marionette	INFO	Listening on port 50008
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1504173463794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504173463831	Marionette	DEBUG	loaded listener.js
+1504173463851	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504173465212	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504173465212	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504173472080	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/dh/ap/ssp_cookie_sync/emea2.html"
+1504173472081	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/dh/ap/ssp_cookie_sync/emea2.html"
+1504173472632	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/3-0-5/html/r-sf.html"
+1504173472730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ads.pubmatic.com/AdServer/js/user_sync.html?p=155967&s=158462&predirect=https%3A%2F%2Fpr-bh.ybp.yahoo.com%2Fsync%2Fpubmatic%2F"
+1504173472862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/3-0-5/html/r-sf.html"
+1504173472888	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/dh/ap/ssp_cookie_sync/emea2.html"
+1504173472894	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/3-0-5/html/r-sf.html"
+1504173472914	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/3-0-5/html/r-sf.html"
+1504173472917	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1504173472918	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1504173472920	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1504173472920	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1504173472921	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1504173473311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1504173473311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1504173473311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1504173473311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1504173473311	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1504173473312	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+JavaScript error: https://s.yimg.com/zz/combo?ss/rapid-3.42.2.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400AE,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
